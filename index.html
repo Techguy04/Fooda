@@ -1,0 +1,402 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="manifest" href="manifest.webmanifest" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule=""
+			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+		></script>
+
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<nav>
+			<div class="navitems">
+				<div class="navlogo">
+					<h3>FOODA</h3>
+				</div>
+				<div class="navlinks">
+					<a href="/" class="navlink" id="active">Home</a>
+					<a href="#abt" class="navlink">About Us</a>
+					<a href="/" class="navlink">Contact Us</a>
+				</div>
+				<div class="navbtns">
+					<div class="signin">
+						<button>Sign In</button>
+					</div>
+					<div class="signup">
+						<button>Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Header Section -->
+		<header>
+			<div class="header">
+				<div class="headertxt-box">
+					<h1>A healthy meal delivered to your door, every single day.</h1>
+					<p>
+						The smart 365-days-per-year food subscription that will make you eat
+						healthy again. Tailored to your personal tastes and nutritional
+						needs.
+					</p>
+					<div class="anchorelmts">
+						<a href="/">Get Started</a>
+						<a href="/"
+							>Learn More
+							<span class="material-symbols-outlined"> arrow_downward </span></a
+						>
+					</div>
+
+					<div class="delivered-meals">
+						<div class="delivered-imgs">
+							<img src="/images/customer-1.jpg" alt="" />
+							<img src="/images/customer-2.jpg" alt="" />
+							<img src="/images/customer-3.jpg" alt="" />
+							<img src="/images/customer-4.jpg" alt="" />
+							<img src="/images/customer-5.jpg" alt="" />
+							<img src="/images/customer-6.jpg" alt="" />
+						</div>
+						<p class="delivered-text">
+							<span>250,000+</span> meals delivered last year!
+						</p>
+					</div>
+				</div>
+				<div class="headerimg-box">
+					<img src="/images/volkan-vardar-1H30uRC1plc-unsplash.jpg" alt="" />
+					<div class="secondary-img">
+						<img src="/images/food.jpg" alt="" />
+						<img src="/images/nigeria food.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Feature  Section -->
+		<section class="section-featured">
+			<div class="container">
+				<h2 class="heading-featured-in">As featured in</h2>
+				<div class="logos">
+					<img src="/images/techcrunch.png" alt="Techcrunch logo" />
+					<img src="/images/business-insider.png" alt="Business Insider logo" />
+					<img
+						src="/images/the-new-york-times.png"
+						alt="The New York Times logo"
+					/>
+					<img src="/images/forbes.png" alt="Forbes logo" />
+					<img src="/images/usa-today.png" alt="USA Today logo" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Delivery Section -->
+		<section class="section-aboutus" id="abt">
+			<div class="aboutus">
+				<p>WHAT WE SERVE</p>
+				<h1>Your Favourite Food Delivery Partner</h1>
+				<div class="abtus-bxs">
+					<div class="bx--1 abtbx">
+						<span class="material-symbols-outlined"> verified </span>
+						<h3>Easy To order</h3>
+						<p
+							>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+							libero alias asperiores officia debitis culpa?</p
+						>
+						<button>Learn More</button>
+					</div>
+					<div class="bx--2 abtbx">
+						<span class="material-symbols-outlined"> local_shipping </span>
+						<h3>Fastest Delivery</h3>
+						<p
+							>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+							Cupiditate aperiam molestiae consectetur repudiandae? Velit,
+							minima.</p
+						>
+						<button>Learn More</button>
+					</div>
+					<div class="bx--3 abtbx">
+						<span class="material-symbols-outlined"> high_quality </span>
+						<h3>Best Quality</h3>
+						<p
+							>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Laboriosam et tenetur maxime dolor officiis in eius?</p
+						>
+						<button>Learn More</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Meal Section -->
+
+		<section class="section-meals" id="meals">
+			<div class="container center-text">
+				<span class="subheading">Meals</span>
+				<h2 class="heading-secondary">
+					FOODA AI chooses from 5,000+ recipes
+				</h2>
+			</div>
+
+			<div class="container grid grid--3-cols margin-bottom-md">
+				<div class="meal">
+					<img
+						src="/images/meal-1.jpg"
+						class="meal-img"
+						alt="Japanese Gyozas"
+					/>
+					<div class="meal-content">
+						<div class="meal-tags">
+							<span class="tag tag--vegetarian">Vegetarian</span>
+						</div>
+						<p class="meal-title">Japanese Gyozas</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+								<span><strong>650</strong> calories</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon
+									class="meal-icon"
+									name="restaurant-outline"
+								></ion-icon>
+								<span>NutriScore &reg; <strong>74</strong></span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="meal-icon" name="star-outline"></ion-icon>
+								<span><strong>4.9</strong> rating (537)</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="meal">
+					<img src="/images/meal-2.jpg" class="meal-img" alt="Avocado Salad" />
+					<div class="meal-content">
+						<div class="meal-tags">
+							<span class="tag tag--vegan">Vegan</span>
+							<span class="tag tag--paleo">Paleo</span>
+						</div>
+						<p class="meal-title">Avocado Salad</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+								<span><strong>400</strong> calories</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon
+									class="meal-icon"
+									name="restaurant-outline"
+								></ion-icon>
+								<span>NutriScore &reg; <strong>92</strong></span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="meal-icon" name="star-outline"></ion-icon>
+								<span><strong>4.8</strong> rating (441)</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="meal">
+					<img src="/images/meal-2.jpg" class="meal-img" alt="Avocado Salad" />
+					<div class="meal-content">
+						<div class="meal-tags">
+							<span class="tag tag--vegan">Vegan</span>
+							<span class="tag tag--paleo">Paleo</span>
+						</div>
+						<p class="meal-title">Avocado Salad</p>
+						<ul class="meal-attributes">
+							<li class="meal-attribute">
+								<ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+								<span><strong>400</strong> calories</span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon
+									class="meal-icon"
+									name="restaurant-outline"
+								></ion-icon>
+								<span>NutriScore &reg; <strong>92</strong></span>
+							</li>
+							<li class="meal-attribute">
+								<ion-icon class="meal-icon" name="star-outline"></ion-icon>
+								<span><strong>4.8</strong> rating (441)</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container all-recipes">
+				<a href="#" class="link">See all recipes &rarr;</a>
+			</div>
+		</section>
+
+		<!-- Testimonal Section -->
+		<section class="section-tstmnls">
+			<div class="tstmnl-items">
+				<p>TESTIMONALS</p>
+				<div class="tstmnl-boxes">
+					<div class="tst-1 cont">
+						<img src="/images/dave.jpg" alt="" />
+						<p>Dave</p>
+						<p
+							>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+							impedit! Voluptatum reprehenderit expedita sint sit."</p
+						>
+					</div>
+					<div class="tst-2 cont">
+						<img src="images/hannah.jpg" alt="" />
+						<p>Hannah</p>
+						<p
+							>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+							impedit! Voluptatum reprehenderit expedita sint sit."</p
+						>
+					</div>
+					<div class="tst-3 cont">
+						<img src="images/steve.jpg" alt="" />
+						<p>Steve</p>
+						<p
+							>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
+							impedit! Voluptatum reprehenderit expedita sint sit."</p
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Us Section -->
+		<section class="section-sign-up">
+			<div class="signup-cont">
+				<div class="signup-txt">
+					<h1>Get your first meal for free!</h1>
+					<p
+						>Healthy, tasty and hassle-free meals are waiting for you. Start
+						eating well today. You can cancel or pause anytime. And the first
+						meal is on us!</p
+					>
+					<div class="signup-input--items">
+						<div class="inpt-row--bx inptcont">
+							<div class="cntbx-1 cntbx">
+								<p>Full Name</p>
+								<input type="text" placeholder="John Doe">
+							</div>
+
+							<div class="cntbx-1 cntbx">
+								<p>Email Address</p>
+								<input type="email" placeholder="johndoe@gmail.com">
+							</div>
+						
+						</div>
+						<div class="inptrow-bx2 inptcont">
+							<div class="cntbx-3 cntbx">
+								<p>Country</p>
+								<div class="int-btn">
+									<input type="country" placeholder="nigeria">
+									<button>Sign up now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="cta-img"></div>
+			</div>
+		</section>
+
+		<!-- FOOTER SECTION	 -->
+		<footer class="footer">
+			<div class="container grid grid--footer">
+				<div class="logo-col">
+					<a href="#" class="footer-logo"> FOODA </a>
+
+					<ul class="social-links">
+						<li>
+							<a class="footer-link" href="#"
+								><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+							></a>
+						</li>
+						<li>
+							<a class="footer-link" href="#"
+								><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+							></a>
+						</li>
+						<li>
+							<a class="footer-link" href="#"
+								><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+							></a>
+						</li>
+					</ul>
+
+					<p class="copyright">
+						Copyright &copy; <span class="year">2027</span> by fooda, Inc. All
+						rights reserved.
+					</p>
+				</div>
+
+				<div class="address-col">
+					<p class="footer-heading">Contact us</p>
+					<address class="contacts">
+						<p class="address">
+							623 Harrison St., 2nd Floor, San Francisco, CA 94107
+						</p>
+						<p>
+							<a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+							><br />
+							<a class="footer-link" href="mailto:hello@omnifood.com"
+								>hello@omnifood.com</a
+							>
+						</p>
+					</address>
+				</div>
+
+				<nav class="nav-col">
+					<p class="footer-heading">Account</p>
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">Create account</a></li>
+						<li><a class="footer-link" href="#">Sign in</a></li>
+						<li><a class="footer-link" href="#">iOS app</a></li>
+						<li><a class="footer-link" href="#">Android app</a></li>
+					</ul>
+				</nav>
+
+				<nav class="nav-col">
+					<p class="footer-heading">Company</p>
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">About Omnifood</a></li>
+						<li><a class="footer-link" href="#">For Business</a></li>
+						<li><a class="footer-link" href="#">Cooking partners</a></li>
+						<li><a class="footer-link" href="#">Careers</a></li>
+					</ul>
+				</nav>
+
+				<nav class="nav-col">
+					<p class="footer-heading">Resources</p>
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">Recipe directory </a></li>
+						<li><a class="footer-link" href="#">Help center</a></li>
+						<li><a class="footer-link" href="#">Privacy & terms</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+		<script src="/js/script.js"></script>
+	</body>
+</html>
