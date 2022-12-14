@@ -1,0 +1,123 @@
+@media  (max-width: 824px) {
+  .navlinks {
+    display: none;
+  }
+
+  .navbtns {
+    display: none;
+  }
+
+  .navlogo h3 {
+    font-size: 14px;
+  }
+
+
+  .header {
+    flex-direction: column;
+  }
+
+  .headertxt-box {
+    width: 100%;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+
+  .headerimg-box  {
+    width: 100%;
+  }
+
+  .headertxt-box h1 {
+    font-size: 45px;
+    width: 85%;
+    text-align: center;
+  }
+
+  .headertxt-box h1::before {
+    height: 180px;
+    width: 180px;
+    top: -30px;
+    left: -10px;
+  }
+
+  .headertxt-box p {
+    text-align: center;
+  }
+
+  .anchorelmts {
+    width: 100%;
+    justify-content: center;
+    /* background-color: red; */
+  }
+
+  .anchorelmts a span {
+    font-size: 20px;
+  }
+
+  .aboutus h1 {
+    width: 75%;
+    font-size: 3rem;
+  }
+
+  .abtus-bxs {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .abtbx {
+    width: 100%;
+    gap: 1em;
+  }
+
+  .abtbx p {
+    width: 65%;  
+  }
+
+  .abtbx button {
+    height: 55px;
+  }
+
+  .section-meals {
+    width: 100%;
+  }
+
+  .grid--3-cols  {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 3rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.5rem;
+  }
+
+  .subheading {
+    font-size: 1.5em;
+  }
+
+  .tstmnl-items {
+    height: 100vh;
+    margin-bottom: 5rem;
+    /* background-color: aqua; */
+  }
+
+  .tstmnl-items p {
+    font-size: 20px;
+  }
+
+  .tstmnl-boxes {
+    gap: 1.5rem;
+    flex-direction: column;
+    padding: 0px 5%;
+  }
+
+  .cont {
+    padding: 0px 5%;
+    width: 100%;
+    height: 350px;
+  }
+
+
+
+  footer {
+    display: none;
+  }
+}
